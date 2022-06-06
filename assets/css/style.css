@@ -1,0 +1,223 @@
+body{
+    color: #4c525a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.head-nav{
+    
+    position: relative;
+
+}
+@font-face {
+    font-family: amerigo;
+    src: url(../font/amerigo.TTF);
+}
+@font-face {
+    font-family: Proximanova;
+    src: url(../font/Proxima.otf);
+}
+.amerigo{
+font-family: amerigo;
+}
+.margin-medium {
+    margin: 0.9375rem;
+}
+.font-weight-400{
+    font-weight: 400;
+}
+
+.navbar-nav li{
+    margin-right: 30px;
+    padding: 16px 12px 16px 0px;
+   
+}
+.head-nav li a{
+    justify-content: space-between;
+    color: #4c4d5f;
+    font-size: 17px;
+    font-weight: 400
+}
+.navbar-brand{
+    margin: 0 50px 0 0;
+}
+.navbar-brand img{
+    vertical-align: middle;
+    display: inline-block;
+}
+.nav-btn-1{
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.nav-btn-1:hover{
+    background-color: #00b289;
+    color: #fff;
+}
+
+.nav-btn-2{
+    color: #fff;
+    background-color: #00b289;
+}
+.nav-btn-2:hover{
+    background-color: #00a37e;
+}
+
+
+.btn-outline-success{
+    position: relative;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+    padding: 12px 22px 9px;
+    
+}
+.container{
+    padding: 110px 0 40px;
+    
+}
+.monthly-text{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1.22px;
+    text-transform: uppercase;
+}
+.yearly-text{
+    opacity: .65;
+    color: #4c4d5f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.22px;
+    text-transform: uppercase;
+}
+.toggle-holder{
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    
+}
+.prising-title{
+    display: flex;
+    width: 100%;
+    margin-top: 4%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0;
+    max-width: 36rem;
+}
+.toggle-holder .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.switch {
+    position: relative;
+    
+    width: 50px;
+    height: 29px;
+    margin-right: 28px;
+    margin-left: 28px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #01b289;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .toggle-holder .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+  }
+  
+  .toggle-holder input:checked + .slider {
+    background-color: #01b289;
+  }
+  
+  .toggle-holder input:focus + .slider {
+    box-shadow: 0 0 1px #01b289;
+  }
+  
+  .toggle-holder input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .toggle-holder .slider.round {
+    border-radius: 34px;
+  }
+  
+  .toggle-holder .slider.round:before {
+    border-radius: 50%;
+  }
+  .toggle-holder .offer-img{
+    position: absolute;
+    left: auto;
+    right: -9%;
+    bottom: 15px;
+}
+.prising-box{
+    padding-top: 40px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.prising-box .heading-medium{
+    font-size: 1.625rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #4c525a;
+}
+.prising-box .max-width-80{
+    max-width: 80%;
+}
+ .prising-box .usd{
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+    align-self: flex-start;
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 400;
+ }
+ .prising-box .price-box{
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 600;
+ }
+.price-box .price-monthly{
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 1.625rem;
+    margin: 0.9375rem;
+ }
