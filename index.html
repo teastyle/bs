@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <link rel="icon" href="./assets/img/5e5fd7c602ca7caaf7feb674_logo copy.svg" type="image/x-icon" />
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -11,7 +13,7 @@
 </head>
 <body>
     <div class="head-nav">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid ">
              
               
@@ -19,35 +21,216 @@
                 <a class="navbar-brand" href="#">
                     <img src="./assets/img/5e5fd7c602ca7cd432feb68e_bonsai-logo.svg" alt="" width="150">
                 </a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Product
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Templates
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
+                <ul class="navbar-heading">
                   <li class="nav-item">
+                    <div class="dropdown1">
+                      <div class="dropbtn1">Product
+                        <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5f5a14486154c507c79e758f_001-down-chevron.svg" loading="lazy" height="14" alt="" >
+                      </div>
+                      <div class="dropdown-content1">
+                        <a href="#">
+                          <div class="box-x">
+                            <div class="title-x ">Bonsai Workflow</div>
+                            <div class="des-x">Look professional, win more clients and manage your business from one place</div>
+                          </div>
+                          <div class="dropbox">
+                            <div class="col-y">
+                                <div class="box-y">
+                                  <img src="./assets/img/leaf.svg">
+                                  <div class="box-y-a"><div class="title-y">Invoices</div>
+                                  <div class="des-y">Get paid faster with automatic invoicing, online payments and more</div></div>
+                                  
+                                </div>
+                                <div class="box-y">
+                                  <img src="./assets/img/leaf.svg">
+                                  <div class="box-y-a"><div class="title-y">Invoices</div>
+                                  <div class="des-y">Get paid faster with automatic invoicing, online payments and more</div></div>
+                                  
+                                </div>
+                                <div class="box-y">
+                                  <img src="./assets/img/leaf.svg">
+                                  <div class="box-y-a"><div class="title-y">Invoices</div>
+                                  <div class="des-y">Get paid faster with automatic invoicing, online payments and more</div></div>
+                                  
+                                </div>
+                                <div class="box-y">
+                                  <img src="./assets/img/leaf.svg">
+                                  <div class="box-y-a"><div class="title-y">Invoices</div>
+                                  <div class="des-y">Get paid faster with automatic invoicing, online payments and more</div></div>
+                                  
+                                </div>
+                            </div>
+                            <div class="col-y">
+                              <div class="box-y">
+                                <img src="./assets/img/leaf.svg">
+                                <div class="box-y-a"><div class="title-y">Invoices</div>
+                                <div class="des-y">Get paid faster with automatic invoicing, online payments and more</div></div>
+                                
+                              </div>
+                              <div class="box-y">
+                                <img src="./assets/img/leaf.svg">
+                                <div class="box-y-a"><div class="title-y">Invoices</div>
+                                <div class="des-y">Get paid faster with automatic invoicing, online payments and more</div></div>
+                                
+                              </div>
+                              <div class="box-y">
+                                <img src="./assets/img/leaf.svg">
+                                <div class="box-y-a"><div class="title-y">Invoices</div>
+                                <div class="des-y">Get paid faster with automatic invoicing, online payments and more</div></div>
+                                
+                              </div>
+                              <div class="box-y">
+                                <img src="./assets/img/leaf.svg">
+                                <div class="box-y-a"><div class="title-y">Invoices</div>
+                                <div class="des-y">Get paid faster with automatic invoicing, online payments and more</div></div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="#">
+                          <div class="box-x" id="boder-bonsai">
+                            <div class="title-x">Bonsai Cash</div>
+                            <div class="des-x">Bonsai’s all-in-one financial hub: No fees and lightning fast payouts</div>
+                         </div>
+                        </a>
+                        <a href="#"><div class="box-x" >
+                          <div class="title-x">Bonsai Tax</div>
+                        <div class="des-x">Track expenses, maximize tax write-offs, and estimate taxes without the headache</div>
+                        </div></a>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <div class="dropdown1">
+                      <div class="dropbtn1">Templates
+                        <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5f5a14486154c507c79e758f_001-down-chevron.svg" loading="lazy" height="14" alt="" >
+                      </div>
+                      <div class="dropdown-content1 set-content-2">
+                        <a href="#">
+                          <div class="box-z"id="dz1">
+                            <div class="box-v">
+                              <img src="./assets/img/leaf.svg">
+                              <div class="des-z" >Contract Templates</div>
+                            </div>
+                            <div class="dropbox-2 " id="db1">
+                              <div class="title-dropbox-2 amerigo" id="title-dropbox">Featured Contract Templates</div>
+                              <div class="templates-box" id="tb1">Free Contract Maker</div>
+                              <div class="templates-box" id="tb2">Social Media Management Contract Template</div>
+                              <div class="templates-box" id="tb3">Graphic Design Contract Template</div>
+                              <div class="templates-box" id="tb4">Digital Marketing Contract Template</div>
+                              <div class="see-all" id="se">See All Templates</div>
+                            </div>
+                          </div>
+                          
+                        </a>
+                        <a href="#">
+                          <div class="box-z" id="dz2">
+                            <div class="box-v">
+                              <img src="./assets/img/leaf.svg">
+                              <div class="des-z" >Proposal Templates</div>
+                            </div>
+                            <div class="dropbox-2 " id="db2">
+                              <div class="title-dropbox-2 amerigo" id="title-dropbox">Featured Proposal Templates</div>
+                              <div class="templates-box" id="tb1">Graphic Design Proposal Template</div>
+                              <div class="templates-box" id="tb2">Business Proposal Template</div>
+                              <div class="templates-box" id="tb3">Brand Ambassador Proposal Template</div>
+                              <div class="templates-box" id="tb4">Data Entry Proposal Letter Template</div>
+                              <div class="see-all" id="se">See All Templates</div>
+                            </div>
+                          </div>
+                          
+                        </a>
+                        <a href="#">
+                          <div class="box-z" id="dz3">
+                            <div class="box-v">
+                              <img src="./assets/img/leaf.svg">
+                              <div class="des-z" >Invoice Templates</div>
+                            </div>
+                            <div class="dropbox-2" id="db3">
+                              <div class="title-dropbox-2 amerigo" id="title-dropbox">Featured Invoice Templates</div>
+                              <div class="templates-box" id="tb1">Social Media Invoice Templates</div>
+                              <div class="templates-box" id="tb2">Contractor Invoice Template</div>
+                              <div class="templates-box" id="tb3">Web Design Invoice Template</div>
+                              <div class="templates-box" id="tb4">Influencer Invoice Template</div>
+                              <div class="see-all" id="se">See All Templates</div>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="#">
+                            <div class="box-z" id="dz4">
+                              <div class="box-v">
+                                <img src="./assets/img/leaf.svg">
+                                <div class="des-z" >Invoice Templates</div>
+                              </div>
+                              <div class="dropbox-2" id="db4">
+                                <div class="title-dropbox-2 amerigo" id="title-dropbox">Featured Agreement Templates</div>
+                                <div class="templates-box" id="tb1">Influencer Agreement Template</div>
+                                <div class="templates-box" id="tb2">Influencer Collaboration Agreement Template</div>
+                                <div class="templates-box" id="tb3">Monthly Retainer Agreement Template</div>
+                                <div class="templates-box" id="tb4">Writer Agreement Template</div>
+                                <div class="see-all" id="se">See All Templates</div>
+                              </div>
+                            </div>
+                        </a>
+                          <a href="#">
+                            <div class="box-z" id="dz5">
+                              <div class="box-v">
+                                <img src="./assets/img/leaf.svg">
+                                <div class="des-z" >Invoice Templates</div>
+                              </div>
+                              <div class="dropbox-2 " id="db5">
+                                <div class="title-dropbox-2 amerigo" id="title-dropbox">Featured Quote Templates</div>
+                                <div class="templates-box" id="tb1">Web Design Quotation Template</div>
+                                <div class="templates-box" id="tb2">Interior Design Quotation Template</div>
+                                <div class="templates-box" id="tb3">Digital Marketing Quotation Template</div>
+                                <div class="templates-box" id="tb4">Video Production Quotation Template</div>
+                                <div class="see-all" id="se">See All Templates</div>
+                              </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="box-z" id="dz6">
+                              <div class="box-v">
+                                <img src="./assets/img/leaf.svg">
+                                <div class="des-z" >Invoice Templates</div>
+                              </div>
+                              <div class="dropbox-2 " id="db6">
+                                <div class="title-dropbox-2 amerigo" id="title-dropbox">Featured Scope of Work Templates</div>
+                                <div class="templates-box" id="tb1">Website Development Scope of Work Template</div>
+                                <div class="templates-box" id="tb2">Digital Marketing Scope of Work Template</div>
+                                <div class="templates-box" id="tb3">Consultant Scope of Work Template</div>
+                                <div class="templates-box" id="tb4">Interior Design Scope ofWork Template</div>
+                                <div class="see-all" id="se">See All Templates</div>
+                              </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="box-z" id="dz7">
+                              <div class="box-v">
+                                <img src="./assets/img/leaf.svg">
+                                <div class="des-z" >Invoice Templates</div>
+                              </div>
+                              <div class="dropbox-2 " id="db7">
+                                <div class="title-dropbox-2 amerigo" id="title-dropbox">Featured Brief Templates</div>
+                                <div class="templates-box" id="tb1">Design Brief Template</div>
+                                <div class="templates-box" id="tb2">Architecture Design Brief</div>
+                                <div class="templates-box" id="tb3">Fashion Design Brief</div>
+                                <div class="templates-box" id="tb4">Creative Brief Template</div>
+                                <!-- <div class="see-all" id="se">See All Templates</div> -->
+                              </div>
+                            </div>
+                        </a>
+                        
+                        </div>
+                      </div>
+                    
+                  </li>
+                  <li class="nav-item padding-8">
                     <a class="nav-link active" aria-current="page" href="#">Pricing</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item padding-8">
                     <a class="nav-link active" aria-current="page" href="#">Reviews</a>
                   </li>
                 </ul>
@@ -60,52 +243,538 @@
           </nav>
     </div>
     <div class="container">
+
+      <div class="blue-shape _12"></div>
       <div class="prising-title">
+
         <h1 class="heading-large amerigo">
           Plans & Pricing
         </h1>
+
         <div class="toggle-holder">
+          
           <div class="monthly-text">MONTHLY</div>
           <label class="switch">
-            <input type="checkbox">
+            <input type="checkbox" id="cell">
             <span class="slider round"></span>
           </label>
+
           <div class="yearly-text">YEARLY</div>
+
           <img src="./assets/img/5e9d7255d3886a6103fb12a9_FREE-text.svg" alt="2 months free image" class="offer-img">
         </div>
+
       </div>
-      <div class="prising-box price-monthly row align-items-start">
-        <div class="col">
+      <div class="prising-box grid-col">
+        <!-- align-items-start -->
+        <div class="plan-div">
           <div class="heading-medium">Starter</div>
-          <div class="max-width-90">Ideal for freelancers and contractors just starting out.
+          <div class="card-content">
+            <div class="max-width-80">Ideal for freelancers and contractors just starting out.
+            </div>
+            <div class="price-box-all">
+              <div class="price-box">
+                <span class="usd">$</span>
+                  <div class="price-starter">24</div>
+                <div class="price-monthly">/MONTH</div>
+                
+              </div>
+              <div class="billed-yearly">Billed yearly</div>
+            </div>
+
+            <div class="plan-features-div">
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">All Templates</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Unlimited Clients & Projects</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Invoicing & Payments</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Proposals & Contracts</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Tasks & Time Tracking</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Client CRM</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Expense Tracking</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Up to 5 Project Collaborators</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">All Templates</div>
+              </div>
           </div>
-          <div class="price-box">
-            <span class="usd">$</span>
-            <div class="x">24</div>
-            <div class="price-monthly">/MONTH</div>
+
+          </div>
+
+          <div class="btn-start">
+            <a  href="#">start free</a>
           </div>
         </div>
-        <div class="col">
+
+        <div class="plan-div">
           <div class="heading-medium">Professional</div>
-          <div class="max-width-90">Everything a growing independent business needs to thrive.
+          <div class="card-content">
+            <div class="max-width-80">Everything a growing independent business needs to thrive.
+            </div>
+            <div class="price-box-all">
+              <div class="price-box">
+                <span class="usd">$</span>
+                  <div class="price-professional">39</div>
+                <div class="price-monthly">/MONTH</div>
+              </div>
+              <div class="billed-yearly">Billed yearly</div>
+            </div>
+            
+  
+            <div class="plan-features-div">
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Everything in Starter plus...</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Custom Branding</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Forms & Questionnaires</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Workflow Automations</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Client Portal</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Calendly Integration</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Zapier Integration</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Up to 15 Project Collaborators</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">All Templates</div>
+              </div>
+              <div class="popular-tag">
+                <div class="most-popular"> MOST POPULAR</div>
+              </div>
+  
+            </div>
+            
           </div>
-          <div class="price-box">
-            <span class="usd">$</span>
-              39
-            <div class="price-monthly">/MONTH</div>
+          <div class="btn-start">
+            <a  href="#">start free</a>
+          </div>
+          </div>
+
+
+        <div class="plan-div">
+          <div class="heading-medium">Business</div>
+          <div class="card-content">
+            <div class="max-width-80">The perfect package for small businesses and agencies.
+            </div>
+            <div class="price-box-all">
+              <div class="price-box">
+                <span class="usd">$</span>
+                  <div class="price-business">79</div>
+                <div class="price-monthly">/MONTH</div>
+              </div>
+              <div class="billed-yearly">Billed yearly</div>
+            </div>
+            
+            <div class="plan-features-div">
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Everything in Starter and Professional plus...</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Subcontractor Management</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Hiring Agreement Templates (1099 contracts)</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Subcontractor Onboarding</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Talent Pool</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">3 Team Seats (additional seats $9/month)</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Accountant Access</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Connect Multiple Bank Accounts</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Unlimited Subcontractors</div>
+              </div>
+              <div class="tick-div">
+                <img src="./assets/img/green-tick.svg" width="12" alt="tick icon" class="margin-tick">
+                <div class="tick-content">Unlimited SubcontractorsUnlimited Project Collaborators</div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="btn-start">
+            <a  href="#">start free</a>
+          </div>
+
+         
+        </div>
+      </div>
+      <div class="customize-workflow">
+        <h2 class="amerigo text-custom">Customize your workflow with add-ons</h2>
+        <div class="add-on-box">
+          <div class="left-add-on">
+            <div class="title-add-on"> Accounting & Tax Assistant</div>
+            <div class="des-add-on">Manage your freelance finances and always be ready for tax season with easy-to-use accounting and tax tools.</div>
+            <div class="box-learn-more">
+              <div class="learn-more">LEARN MORE</div>
+              <img src="./assets/img/arrow.svg" width="6" class="learn-arrow">
+            </div>
+          </div>
+          <div class="right-add-on">
+            <div class="add-on-price">$100</div>
+            <div class="on-year">/YEAR</div>
           </div>
         </div>
-        <div class="col">
-          <div class="heading-medium">Business</div>
-          <div class="max-width-90">The perfect package for small businesses and agencies.
+        <div class="add-on-box smaller">
+          <div class="left-add-on">
+            <div class="title-add-on">Partners</div>
+            <div class="des-add-on">Invite other users for full account access and company management.</div>
           </div>
-          <div class="price-box">
-            <span class="usd">$</span>
-              29
-            <div class="price-monthly">/MONTH</div>
+          <div class="right-add-on">
+            <div class="add-on-price">$90</div>
+            <div class="on-year">/YEAR</div>
+          </div>
+        </div>
+        <div class="add-on-box smaller">
+          <div class="left-add-on">
+            <div class="title-add-on">Collaborators</div>
+            <div class="des-add-on">Invite other users to specific projects for limited access and functionality.
+            </div>
+          </div>
+          <div class="right-add-on">
+            <div class="add-on-price">Free</div>
           </div>
         </div>
       </div>
     </div>
+    <div class="section">
+      <div class="page-padding">
+        <div class="container-medium">
+
+          <div class="cta-div">
+            <div class="amerigo banner">
+              It’s <span class="text-color-green">your</span> business. <br>We’re here to help it grow.
+            </div>
+            <div class="btn-start-2">
+              <a  href="#" class="btn-a">start free</a>
+            </div>
+          </div>
+            
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="section-question">
+    <div class="page-padding">
+      <div class="container-medium">
+        <div class="margin-huge"><h2 class="title-question">Frequently Asked Questions</h2></div>
+        <div>
+          <h2 onclick= "hideOn1()"class="accordion" >How does the 14 day free trial work?</h2>
+          <div class="paragraph" id="ac1">When you start your trial with Bonsai you'll receive full, unlimited access to all of Bonsai's Workflow or Workflow Plus Features for 14 days! You will need to enter your credit card information to begin your trial, but don't worry - we won't charge you anything until the subscription ends! If you wish to cancel at any time during the trial period, you can do so through your Subscriptions Settings Page.</div>
+        </div>
+        <div>
+        <h2 onclick= "hideOn2()" class="accordion">Can I change plans anytime?</h2>
+        <div class="paragraph" id="ac2">When you start your trial with Bonsai you'll receive full, unlimited access to all of Bonsai's Workflow or Workflow Plus Features for 14 days! You will need to enter your credit card information to begin your trial, but don't worry - we won't charge you anything until the subscription ends! If you wish to cancel at any time during the trial period, you can do so through your Subscriptions Settings Page.</div>
+        </div>
+        <div>
+          <h2 onclick= "hideOn3()" class="accordion">How do I pause my Bonsai subscription?</h2>
+          <div class="paragraph" id="ac3">When you start your trial with Bonsai you'll receive full, unlimited access to all of Bonsai's Workflow or Workflow Plus Features for 14 days! You will need to enter your credit card information to begin your trial, but don't worry - we won't charge you anything until the subscription ends! If you wish to cancel at any time during the trial period, you can do so through your Subscriptions Settings Page.</div>
+        </div>
+        <div><h2 onclick= "hideOn4()" class="accordion">What is your refund policy?</h2>
+          <div class="paragraph" id="ac4">When you start your trial with Bonsai you'll receive full, unlimited access to all of Bonsai's Workflow or Workflow Plus Features for 14 days! You will need to enter your credit card information to begin your trial, but don't worry - we won't charge you anything until the subscription ends! If you wish to cancel at any time during the trial period, you can do so through your Subscriptions Settings Page.</div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-link-holder">
+      <div class="footer-block">
+        <div class="footer-title">PRODUCT</div>
+        <div class="footer-section-block">
+          <a href="/freelance-proposals" class="footer-link">Proposals</a>
+          <a href="/contracts" class="footer-link">Contracts</a>
+          <a href="/invoicing" class="footer-link">Invoicing</a>
+          <a href="/freelance-crm" class="footer-link">Client CRM</a>
+          <a href="/freelance-time-tracking" class="footer-link">Time Tracking</a>
+          <a href="/freelance-task-management" class="footer-link">Task Tracking</a>
+          <a href="/freelance-forms" class="footer-link">Forms</a>
+          <a href="/freelance-accounting-software" class="footer-link">Accounting</a>
+          <a href="/bonsai-tax" class="footer-link">Bonsai Tax</a><a href="/bonsai-cash" class="footer-link">Bonsai Cash</a>
+        </div>
+        <div class="footer-section-block"><a href="/pricing" aria-current="page" class="footer-link w--current">Pricing</a>
+          <a href="/reviews" class="footer-link">Bonsai Reviews</a>
+        </div>
+      </div>
+      <div class="footer-block">
+        <div class="footer-title">FREE Resources</div>
+        <div class="footer-section-block">
+          <a href="/resources" class="footer-link">Freelance Resources</a>
+          <a href="/blog" class="footer-link">Freelance Blog by Bonsai</a>
+          <a href="/blog/how-to-write-a-contract" class="footer-link">How to Write a Contract</a>
+          <a href="/online-signature-maker" class="footer-link">Online Signature Maker</a>
+        </div>
+        <div class="footer-section-block">
+          <a href="/self-employment-tax" class="footer-link">Self-Employed Taxes Hub</a>
+          <a href="/self-employment-tax-calculator" class="footer-link">Self-Employed Tax Calculator</a>
+          <a href="/blog/tax-deductions-for-self-employed" class="footer-link">Self-Employed&nbsp;Tax Deductions</a>
+        </div>
+        <div class="footer-section-block"><div class="sub-title">Templates</div>
+        <div class="dropdown-footer">
+          <div data-w-id="c1855199-67ad-2818-ddc2-cc123db77ba5" onclick="dropdownf1()"  class="dropdown-footer-line">
+            <a href="/templates/invoices" class="footer-link">Invoice Templates</a>
+            <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5f5a14486154c507c79e758f_001-down-chevron.svg" loading="lazy" height="14" alt="" class="dropdown-footer-trigger">
+          </div>
+          <div class="dropdown-footer-list dd1" style="width: 232.35px;">
+            <a href="/a/freelance-invoice-generator" class="footer-link dropdown">Invoice Generator</a>
+            <a href="/a/blank-invoice-template" class="footer-link dropdown">Blank Invoice Template</a>
+            <a href="/a/consultant-invoice-template-excel" class="footer-link dropdown">Consultant Invoice Template</a>
+            <a href="/a/editable-invoice-template-pdf" class="footer-link dropdown">Editable Invoice Template</a>
+            <a href="/a/freelance-graphic-designer-invoice-template" class="footer-link dropdown">Graphic Design Invoice</a>
+            <a href="/a/web-design-invoice-template" class="footer-link dropdown">Web Design Invoice</a>
+            <a href="/a/independent-contractor-invoice" class="footer-link dropdown">Contractor Invoice&nbsp;Template</a>
+            <a href="/a/photography-invoice-template" class="footer-link dropdown">Photography Invoice Template</a>
+            <a href="/a/self-employed-invoice-template" class="footer-link dropdown">Self Employed Invoice Template</a>
+          </div>
+        </div>
+        <div class="dropdown-footer">
+          <div data-w-id="b14331be-3ae7-5d2a-4dc9-18ddcdf76d98" onclick="dropdownf2()" class="dropdown-footer-line">
+            <a href="/templates/proposals" class="footer-link">Proposal Templates</a>
+            <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5f5a14486154c507c79e758f_001-down-chevron.svg" loading="lazy" height="14" alt="" class="dropdown-footer-trigger">
+          </div>
+          <div class="dropdown-footer-list dd2" style="width: 243.65px; ">
+            <a href="/a/website-proposal-template-word" class="footer-link dropdown">Website Proposal Template</a>
+            <a href="/a/digital-marketing-proposal-template" class="footer-link dropdown">Digital Marketing Proposal Template</a>
+            <a href="/a/social-media-marketing-proposal" class="footer-link dropdown">Social Media Marketing Proposal</a>
+            <a href="/a/graphic-design-proposal-pdf" class="footer-link dropdown">Graphic Design Proposal</a>
+            <a href="/a/freelance-proposal-example" class="footer-link dropdown">Freelance Proposal Template</a>
+            <a href="/a/seo-proposal-template" class="footer-link dropdown">SEO Proposal Template</a>
+          </div>
+        </div>
+        <div class="dropdown-footer">
+          <div data-w-id="c4a4ea98-42ff-65fc-743b-2924361a14e8" onclick="dropdownf3()"class="dropdown-footer-line">
+            <a href="/templates/contracts" class="footer-link">Contract Templates</a>
+            <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5f5a14486154c507c79e758f_001-down-chevron.svg" loading="lazy" height="14" alt="" class="dropdown-footer-trigger">
+          </div>
+          <div class="dropdown-footer-list dd3" style="width: 236.25px; ">
+            <a href="/a/online-contract-maker" class="footer-link dropdown">Online Contract</a>
+            <a href="/a/freelance-design-contract" class="footer-link dropdown">Graphic Design Contract </a>
+            <a href="/a/freelance-contract-template" class="footer-link dropdown">Freelance Contract Template</a>
+            <a href="/a/social-media-contract-template" class="footer-link dropdown">Social Media Marketing Contract </a>
+            <a href="/a/software-development-contract-template-pdf" class="footer-link dropdown">Software Development Contract</a>
+            <a href="/a/freelance-website-design-contract" class="footer-link dropdown">Web Design Contract </a>
+            <a href="/a/video-production-contract-pdf" class="footer-link dropdown">Video Production Contract</a>
+            <a href="/a/freelance-public-relations-contract-template" class="footer-link dropdown">Public Relations Contract</a>
+            <a href="/a/translation-contract" class="footer-link dropdown">Translation Contract</a>
+          </div>
+        </div>
+        <div class="dropdown-footer">
+          <div data-w-id="2d629508-7b38-e71f-3247-1a9114ce246d" onclick="dropdownf4()"class="dropdown-footer-line">
+            <a href="/templates/agreements" class="footer-link">Agreement Templates</a>
+            <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5f5a14486154c507c79e758f_001-down-chevron.svg" loading="lazy" height="14" alt="" class="dropdown-footer-trigger">
+          </div>
+          <div class="dropdown-footer-list dd4">
+            <a href="/a/monthly-retainer-agreement" class="footer-link dropdown">Retainer Agreement Template</a>
+            <a href="/a/social-media-influencer-agreement" class="footer-link dropdown">Influencer Agreement Template</a>
+            <a href="/a/influencer-collaboration-agreement-template" class="footer-link dropdown">Collaboration Agreement Template</a>
+            <a href="/a/software-development-contract-template-pdf" class="footer-link dropdown">Software Development Agreement</a>
+            <a href="/a/digital-marketing-contract-template" class="footer-link dropdown">Marketing Agreement Template</a>
+          </div>
+        </div>
+        <div class="dropdown-footer">
+          <div data-w-id="a51aa2fc-9084-a978-467f-e5cc12b30364" onclick="dropdownf5()"class="dropdown-footer-line">
+            <a href="/templates/scope-of-work" class="footer-link">Scope of Work Templates</a>
+            <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5f5a14486154c507c79e758f_001-down-chevron.svg" loading="lazy" height="14" alt="" class="dropdown-footer-trigger">
+          </div>
+          <div class="dropdown-footer-list dd5" ><a href="/a/website-development-scope-of-work-template" class="footer-link dropdown">Website Development Scope of Work</a>
+            <a href="/a/marketing-scope-of-work" class="footer-link dropdown">Digital Marketing Scope of Work</a>
+            <a href="/a/sample-statement-of-work-for-consulting-services" class="footer-link dropdown">Consultant Statement of Work Template</a>
+            <a href="/a/sow-for-software-development" class="footer-link dropdown">Software Development Scope of Work</a>
+          </div>
+        </div>
+        <div class="dropdown-footer">
+          <div data-w-id="d854b316-1d2a-c9ce-0217-2ba143eaffda" onclick="dropdownf6()"class="dropdown-footer-line">
+            <a href="/templates/quotes" class="footer-link">Quote Templates</a><img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5f5a14486154c507c79e758f_001-down-chevron.svg" loading="lazy" height="14" alt="" class="dropdown-footer-trigger">
+          </div>
+          <div class="dropdown-footer-list dd6" >
+            <a href="/a/freelance-quotation-template" class="footer-link dropdown">Freelance Quotation Template</a>
+            <a href="/a/web-design-quotation" class="footer-link dropdown">Web Design Quotation Template</a>
+            <a href="/a/graphic-design-quotation" class="footer-link dropdown">Graphic Design Quotation Template</a>
+            <a href="/a/interior-design-quotation-sample" class="footer-link dropdown">Interior Design Quotation Template</a>
+            <a href="/a/video-production-quotation-sample-pdf" class="footer-link dropdown">Video Production Quotation Template</a>
+            <a href="/a/social-media-marketing-quotation" class="footer-link dropdown">Social Media Marketing Quotation</a>
+          </div>
+        </div>
+        <a href="/credit-note-templates" class="footer-link">Credit Note Templates</a>
+        <a href="/estimate-templates" class="footer-link">Estimate Templates</a>
+      </div>
+    </div>
+    <div class="footer-block last">
+      <div class="footer-title">BONSAI</div>
+      <div class="footer-section-block hide">
+        <a href="https://angel.co/company/bonsai/jobs" target="_blank" class="footer-link"><strong>WE&nbsp;ARE&nbsp;HIRING</strong> </a>
+      </div><div class="footer-section-block">
+        <a href="/about" class="footer-link">About</a>
+        <a href="/jobs" class="footer-link">Careers</a>
+        <a href="https://help.hellobonsai.com" target="_blank" class="footer-link">Support</a>
+        <a href="https://www.linkedin.com/company/bonsai" target="_blank" class="footer-link">LinkedIn</a>
+        <a href="https://www.twitter.com/bonsaiinc" target="_blank" class="footer-link">Twitter</a>
+        <a href="/privacy" class="footer-link">Privacy policy</a>
+        <a href="/terms" class="footer-link">Legal</a>
+      </div>
+      <div class="footer-section-block">
+        <a href="/affiliates" class="footer-link">Affiliates</a>
+        <a href="/write-for-us" target="_blank" class="footer-link">Write for Us</a>
+      </div>
+      <div class="dropdown-footer">
+        <div data-w-id="54f3766e-fe94-d4fb-b58b-197b5b2f7c6b" onclick="dropdownf7()"class="dropdown-footer-line">
+          <a href="/alternatives" class="footer-link">Comparisons</a>
+          <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5f5a14486154c507c79e758f_001-down-chevron.svg" loading="lazy" height="14" alt="" class="dropdown-footer-trigger"></div>
+    <div class="dropdown-footer-list dd7" ><a href="/blog/freshbooks-alternatives" class="footer-link dropdown">Freshbooks Alternatives</a><a href="/alternatives/quickbooks-alternative" class="footer-link dropdown">Quickbooks Alternatives</a><a href="/alternatives/wave-vs-quickbooks-vs-bonsai" class="footer-link dropdown">Wave vs Quickbooks</a><a href="/alternatives/xero-vs-quickbooks-vs-bonsai" class="footer-link dropdown">Xero vs Quickbooks</a><a href="/alternatives/freshbooks-vs-quickbooks-vs-bonsai" class="footer-link dropdown">Freshbooks vs Quickbooks</a></div></div></div>
+    </div>
+    
+  </div>
+    <script>
+function hideOn1() {
+        var x = document.getElementById("ac1");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+}
+function hideOn2() {
+        var x = document.getElementById("ac2");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+}
+function hideOn3() {
+        var x = document.getElementById("ac3");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+}
+function hideOn4() {
+        var x = document.getElementById("ac4");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+}
+function dropdownf1(){
+  document.querySelector(".dd1").classList.toggle("block-display");
+}
+function dropdownf2(){
+  document.querySelector(".dd2").classList.toggle("block-display");
+}
+function dropdownf3(){
+  document.querySelector(".dd3").classList.toggle("block-display");
+}
+function dropdownf4(){
+  document.querySelector(".dd4").classList.toggle("block-display");
+}
+function dropdownf5(){
+  document.querySelector(".dd5").classList.toggle("block-display");
+}
+function dropdownf6(){
+  document.querySelector(".dd6").classList.toggle("block-display");
+}
+function dropdownf7(){
+  document.querySelector(".dd7").classList.toggle("block-display");
+}
+
+//   var ecell =  ​document.getElementById("cell");
+
+// ​ ecell.addEventListener('click', function() {
+//       var divElem = document.getElementsByClassName('billed-yearly'); 
+//     if( this.checked){
+//         divElem.style.display = 'none'  ; 
+//     }
+//     else{
+//         divElem.style.display = 'block'  ;
+//     }
+// });
+
+$(document).ready(function(){
+$('#cell').change(function(){
+if(this.checked){
+  $('.billed-yearly').fadeIn();
+  $('.price-starter').html('17');
+  $('.price-professional').html('32');
+  $('.price-business').html('52');
+  
+}
+
+
+else
+{
+  $('.billed-yearly').fadeOut();
+  $('.price-starter').html('24');
+  $('.price-professional').html('39');
+  $('.price-business').html('79');
+}
+
+
+});
+});
+
+
+    </script>
 </body>
 </html>
