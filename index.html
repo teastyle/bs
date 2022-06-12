@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     
     <title>Pricing - Bonsai Freelance Solution</title>
 </head>
@@ -21,6 +22,8 @@
                 <a class="navbar-brand" href="#">
                     <img src="./assets/img/5e5fd7c602ca7cd432feb68e_bonsai-logo.svg" alt="" width="150">
                 </a>
+
+                </div>
                 <ul class="navbar-heading">
                   <li class="nav-item">
                     <div class="dropdown1">
@@ -242,7 +245,159 @@
             </div>
           </nav>
     </div>
-    <div class="container">
+<!-- ------------------------------------------------------------------MENU MOBILE ------------------------------------------------------------------------------------------- -->
+    <div class="mobile-menu">
+          <div class="headbar-mobile">
+                  <a class="navbar-brand" href="#">
+                    <img src="./assets/img/5e5fd7c602ca7cd432feb68e_bonsai-logo.svg" alt="" width="150">
+                </a>
+                <div class="btn-menu" role="button">
+                  <img src="./assets/img/menu-regular-36.png" alt="">
+                </div>
+      </div>
+      
+      <div class="box-mobile">
+        <a class="xx" aria-current="page" href="#" onclick="openchild()">
+          <div class="nav-item-mobile dropbtn-mobile">
+            <div class="box-box">
+              Product
+              <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5f5a14486154c507c79e758f_001-down-chevron.svg" loading="lazy" height="14" alt="" >
+            </div>
+        </a>   
+      </div>
+      <a class="xx" aria-current="page" href="#" onclick="open6link()">
+        <div class="nav-item-mobile dropbtn-mobile">
+          <div class="box-box">
+            Templates
+            <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5f5a14486154c507c79e758f_001-down-chevron.svg" loading="lazy" height="14" alt="" >
+          </div>
+      </a>   
+    </div>
+      
+      <div class="nav-item-mobile xx">
+        <a class="" aria-current="page" href="#">Pricing</a>
+      </div>
+      <div class="nav-item-mobile xx">
+        <a class="" aria-current="page" href="#">Reviews</a>
+      </div>
+      <div class="btn-mobile xx" id="login">
+        <a class="btn-aa" aria-current="page" href="#">log in</a>
+      </div>
+      <div class="btn-mobile xx" id="start">
+        <a class="" aria-current="page" href="#">start free</a>
+      </div>
+
+
+      <div class="dropdown-content-mobile child-product" >
+        <a href="#" >
+          <div class="box-x-m" onclick="openbox8link()">
+            <div class="title-x-m ">Bonsai Workflow</div>
+            <div class="des-x-m">Look professional, win more clients and manage your business from one place</div>
+          </div>
+        </a>
+        <div class="box-8-link">
+          <a href="#">
+            <div class="box-final">
+              <img src="./assets/img/leaf.svg">
+              <div class="title-final">Invoices</div>
+           </div>
+          </a>
+          <a href="#">
+            <div class="box-final">
+              <img src="./assets/img/leaf.svg">
+              <div class="title-final">Proposals</div>
+           </div>
+          </a>
+          <a href="#">
+            <div class="box-final">
+              <img src="./assets/img/leaf.svg">
+              <div class="title-final">Contracts</div>
+           </div>
+          </a>
+          <a href="#">
+            <div class="box-final">
+              <img src="./assets/img/leaf.svg">
+              <div class="title-final">Client CRM</div>
+           </div>
+          </a>
+          <a href="#">
+            <div class="box-final">
+              <img src="./assets/img/leaf.svg">
+              <div class="title-final">Form & Automation</div>
+           </div>
+          </a>
+          <a href="#">
+            <div class="box-final">
+              <img src="./assets/img/leaf.svg">
+              <div class="title-final">Time Tracking</div>
+           </div>
+          </a>
+          <a href="#">
+            <div class="box-final">
+              <img src="./assets/img/leaf.svg">
+              <div class="title-final">Accounting</div>
+           </div>
+          </a>
+          <a href="#">
+            <div class="box-final">
+              <img src="./assets/img/leaf.svg">
+              <div class="title-final">Task Tracking</div>
+           </div>
+          </a>
+        </div>
+        <a href="#">
+          <div class="box-x-m" id="boder-bonsai">
+            <div class="title-x-m">Bonsai Cash</div>
+            <div class="des-x-m">Bonsai’s all-in-one financial hub: No fees and lightning fast payouts</div>
+         </div>
+        </a>
+        <a href="#"><div class="box-x-m" >
+          <div class="title-x-m">Bonsai Tax</div>
+        <div class="des-x-m">Track expenses, maximize tax write-offs, and estimate taxes without the headache</div>
+        </div></a>
+    </div>
+      
+      </div>
+      <div class="box-6-link">
+        <a href="#">
+          <div class="box-final">
+            <img src="./assets/img/leaf.svg">
+            <div class="title-final">Contract Templates</div>
+         </div>
+        </a>
+        <a href="#">
+          <div class="box-final">
+            <img src="./assets/img/leaf.svg">
+            <div class="title-final">Proposal Templates</div>
+         </div>
+        </a>
+        <a href="#">
+          <div class="box-final">
+            <img src="./assets/img/leaf.svg">
+            <div class="title-final">Invoices Templates</div>
+         </div>
+        </a>
+        <a href="#">
+          <div class="box-final">
+            <img src="./assets/img/leaf.svg">
+            <div class="title-final">Agreement Templates</div>
+         </div>
+        </a>
+        <a href="#">
+          <div class="box-final">
+            <img src="./assets/img/leaf.svg">
+            <div class="title-final">Quote Templates</div>
+         </div>
+        </a>
+        <a href="#">
+          <div class="box-final">
+            <img src="./assets/img/leaf.svg">
+            <div class="title-final">Scope of Work Templates</div>
+         </div>
+        </a>
+    </div>
+
+    <div class="container-">
 
       <div class="blue-shape _12"></div>
       <div class="prising-title">
@@ -739,6 +894,22 @@ function dropdownf7(){
   document.querySelector(".dd7").classList.toggle("block-display");
 }
 
+function openchild(){
+  document.querySelector(".child-product").style.display= "block";
+
+}
+function openbox8link(){
+  document.querySelector(".box-8-link").style.display= "block";
+
+}
+// // function btnmobile() {
+//         var x = document.getElementsByClassName("box-mobile");
+//         if (x.style.display === "none") {
+//           x.style.display = "block";
+//         } else {
+//           x.style.display = "none";
+//         }
+// }
 //   var ecell =  ​document.getElementById("cell");
 
 // ​ ecell.addEventListener('click', function() {
